@@ -35,7 +35,7 @@ setup(
     install_requires=requirements,
     license='MIT',
     zip_safe=False,
-    keywords='separator delimiter collision CSV TSV SSV',
+    keywords='ASCII collision CSV delimiter separator SSV table text TSV value',
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
