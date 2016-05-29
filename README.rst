@@ -18,7 +18,7 @@ SSV stands for separator-separated values. It sounds like a joke, but it can act
 Description
 -----------
 
-SSV is a format for saving tabular data (`flat-file databases`__) as `delimiter-separated values`__ in a plain text file. In contrast to other formats, e.g. `CSV`__ or `TSV`__, `delimiter collision`__ is virtually impossible. Instead of using commas (CSV), tabs (TSV) and newlines, SSV relies on the record separator ``RS`` and the unit separator ``US`` for `data structuring`, which should not occur at all in textual data.
+SSV is a format for saving tabular data (`flat-file databases`__) as `delimiter-separated values`__ in a plain text file. In contrast to other formats, e.g. `CSV`__ or `TSV`__, `delimiter collision`__ is virtually impossible. Instead of using commas (CSV), tabs (TSV) and newlines, SSV relies on the record separator ``RS`` and the unit separator ``US`` for `data structuring`__, which should not occur at all in textual data.
 
 __ https://en.wikipedia.org/wiki/Flat_file_database
 __ https://en.wikipedia.org/wiki/Delimiter-separated_values
@@ -62,8 +62,8 @@ API Example
 
     # simple table
     table = [['A1', 'B1', 'C1'],
-            ['A2', 'B2', 'C2']]
-    
+             ['A2', 'B2', 'C2']]
+
     # encode table as SSV string
     ssv.dumps(table)  # 'A1\x1fB1\x1fC1\x1eA2\x1fB2\x1fC2'
 
