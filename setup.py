@@ -21,7 +21,7 @@ test_requirements = [
 
 setup(
     name='ssv',
-    version='0.1.0',
+    version='0.1.1',
     description='SSV stands for separator separated values.',
     long_description=readme + '\n\n' + history,
     author='Stefan Fischer',

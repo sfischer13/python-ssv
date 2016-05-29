@@ -1,4 +1,3 @@
-=========================================
 Python Separator Separated Values Package
 =========================================
 
@@ -8,13 +7,11 @@ Python Separator Separated Values Package
 .. image:: https://img.shields.io/travis/sfischer13/python-ssv.svg
         :target: https://travis-ci.org/sfischer13/python-ssv
 
--------
 Summary
 -------
 
 SSV stands for separator-separated values. It sounds like a joke, but it can actually be useful.
 
------------
 Description
 -----------
 
@@ -31,7 +28,6 @@ The format is an example of `ASCII delimited text`__. As there is no official st
 
 __ https://en.wikipedia.org/wiki/Delimiter#ASCII_delimited_text
 
-------
 Format
 ------
 
@@ -52,7 +48,6 @@ __ https://www.w3.org/TR/REC-xml/#sec-notation
 
 Table records (rows) are separated by the record separator ``RS``. Each record contains one or more units (fields), which are separated by the unit separator ``US``. A unit may contain zero or more characters, excluding RS and US. As a consequence, an empty file is a valid SSV file and represents a 1-by-1 table containing a single empty field.
 
------------
 API Example
 -----------
 
