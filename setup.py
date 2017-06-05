@@ -45,6 +45,7 @@ setup(
     name='ssv',
     package_dir={'ssv': 'ssv'},
     packages=['ssv'],
+    python_requires='>=3.3',
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/sfischer13/python-ssv',
